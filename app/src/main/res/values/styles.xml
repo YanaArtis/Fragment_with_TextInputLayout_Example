@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme21" parent="AppTheme"/>
+
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">#69202020</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColorHighlight">#FFFF00FF</item>
+        <item name="colorAccent">#FF8080FF</item>
+        <item name="colorControlNormal">#FF000000</item>
+        <item name="colorControlActivated">#FFFF0000</item>
+        <item name="colorControlHighlight">#FF00FF00</item>
+    </style>
+
+    <style name="TextLabel21" parent="TextLabel"/>
+
+</resources>

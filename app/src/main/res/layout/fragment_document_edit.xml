@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:layout_margin="0dp"
+    >
+
+    <ScrollView
+        android:id="@+id/doc_edit_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFFFF"
+        android:layout_marginLeft="16dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="22dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="16dp"
+            app:errorEnabled="true"
+            android:theme="@style/TextLabel"
+            >
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/doc_edit_comment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="1st line\n2nd line"
+                android:singleLine="false"
+                android:hint="Comment"
+                android:textColorHint="#69202020"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </ScrollView>
+
+</LinearLayout>
